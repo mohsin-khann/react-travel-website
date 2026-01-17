@@ -1,0 +1,48 @@
+.carousel-item1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.45)), url(../../Assets/Images/header-img1.jpg);
+}
+
+.carousel-item2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/header-img2.jpg);
+}
+
+.carousel-item3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.55)), url(../../Assets/Images/header-img3.jpg);
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3 {
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item1 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../Assets/Images/header-img1.jpg);
+    }
+
+    .carousel-item2 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../Assets/Images/header-img2.jpg);
+    }
+
+    .carousel-item3 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../../Assets/Images/header-img3.jpg);
+    }
+}
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url(../../Assets/Images/header-img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-glass-card {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  max-width: 320px;
+}

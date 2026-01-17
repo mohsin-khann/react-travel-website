@@ -1,0 +1,51 @@
+.navbar {
+    background-color: var(--primary-bg-color);
+}
+
+.navbar .navbar-toggler {
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand img {
+    filter: invert();
+}
+
+.navbar .navbar-brand a {
+    font-family: "Anton SC", sans-serif;
+}
+
+.navbar .navbar-brand img {
+    transform: rotate(45deg);
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        background-color: var(--secondary-bg-color);
+    }
+}
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+}
+
+.brand {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-item {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  color: #32a859;
+}

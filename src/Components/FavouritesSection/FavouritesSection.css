@@ -1,0 +1,34 @@
+.favourites-section .spa-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url(../../Assets/Images/spa.jpg);
+}
+
+.favourites-section .pool-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url(../../Assets/Images/pool.jpg);
+}
+
+.favourites-section .pet-friendly-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url(../../Assets/Images/pet-friendly.jpg);
+}
+
+.favourites-section .all-inclusive-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url(../../Assets/Images/all-inclusive.jpg);
+}
+
+.favourites-section .spa-div,
+.favourites-section .pool-div,
+.favourites-section .pet-friendly-div,
+.favourites-section .all-inclusive-div {
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.fav-card {
+  height: 500px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.fav-card.active {
+  outline: 4px solid #32a859;
+  transform: scale(1.03);
+}
